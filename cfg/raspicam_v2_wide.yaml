@@ -1,0 +1,22 @@
+image_width: 640
+image_height: 360
+camera_name: cam0
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [402.3902897127422, 0.0, 393.6715915808062, 0.0, 323.3000519630719, 158.54441692227368, 0.0, 0.0, 1.0]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data:  [-0.037248107431663915, 0.006995053833772712, -0.0243921929806465, 0.014803855796907486, 0.0]
+
+#cam0:
+#  cam_overlaps: []
+#  camera_model: pinhole
+#  distortion_coeffs: [-0.037248107431663915, 0.006995053833772712, -0.0243921929806465,
+#    0.014803855796907486]
+#  distortion_model: equidistant
+#  intrinsics: [402.3902897127422, 393.6715915808062, 323.3000519630719, 158.54441692227368]
+#  resolution: [640, 360]
+#  rostopic: /cam0/image_raw
